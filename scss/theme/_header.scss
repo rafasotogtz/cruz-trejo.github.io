@@ -7,14 +7,14 @@
 }
 
 #header {
-  padding: 0px 0px 27px 0px;
+  padding: 0px 0px 20px 0px;
   position: relative;
   left: 0;
   top: 0;
   right: 0;
   transition: all 0.5s;
   z-index: 997;
-  background: $white;
+  background: #fff;
   margin-bottom: 31px;
   @media (max-width: 1665px) {
     margin-bottom: 0px;
@@ -24,7 +24,7 @@
 #header.header-scrolled {
   position: fixed;
   box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
-  background: $white;
+  background:  #fff;
   transition: all 0.5s;
   &.dark {
     background: $title-color;
@@ -148,7 +148,7 @@
     display: inline-block;
     color: $title-color;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 40px !important;
     text-transform: capitalize;
     outline: none;
     font-family: $primary-font;
@@ -196,7 +196,7 @@
 }
 
 .nav-menu ul li:hover > a {
-  color: $primary-color;
+  color: red;
 }
 
 .nav-menu ul ul {
@@ -223,7 +223,7 @@
 }
 
 #mobile-nav-toggle i {
-  color: $primary-color;
+  color: red;
   font-weight: 900;
 }
 
@@ -293,7 +293,7 @@
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: $primary-color;
+  color: red;
 }
 
 #mobile-nav ul .menu-has-children li a {
@@ -301,7 +301,7 @@
 }
 
 #mobile-nav ul .menu-item-active {
-  color: $primary-color;
+  color: red;
 }
 
 #mobile-body-overly {
